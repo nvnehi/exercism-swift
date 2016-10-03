@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F94FDA561DA2E7FA0014B31E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FDA551DA2E7FA0014B31E /* main.swift */; };
+		F94FDA631DA2E8200014B31E /* DifferenceOfSquaresTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FDA621DA2E8200014B31E /* DifferenceOfSquaresTest.swift */; };
+		F94FDA691DA2E83F0014B31E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FDA551DA2E7FA0014B31E /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F94FDA501DA2E7FA0014B31E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F94FDA521DA2E7FA0014B31E /* difference-of-squares */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "difference-of-squares"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94FDA551DA2E7FA0014B31E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F94FDA601DA2E8200014B31E /* DifferenceOfSquaresTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DifferenceOfSquaresTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94FDA621DA2E8200014B31E /* DifferenceOfSquaresTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferenceOfSquaresTest.swift; sourceTree = "<group>"; };
+		F94FDA641DA2E8200014B31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F94FDA4F1DA2E7FA0014B31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94FDA5D1DA2E8200014B31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F94FDA491DA2E7FA0014B31E = {
+			isa = PBXGroup;
+			children = (
+				F94FDA541DA2E7FA0014B31E /* difference-of-squares */,
+				F94FDA611DA2E8200014B31E /* DifferenceOfSquaresTest */,
+				F94FDA531DA2E7FA0014B31E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F94FDA531DA2E7FA0014B31E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F94FDA521DA2E7FA0014B31E /* difference-of-squares */,
+				F94FDA601DA2E8200014B31E /* DifferenceOfSquaresTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F94FDA541DA2E7FA0014B31E /* difference-of-squares */ = {
+			isa = PBXGroup;
+			children = (
+				F94FDA551DA2E7FA0014B31E /* main.swift */,
+			);
+			path = "difference-of-squares";
+			sourceTree = "<group>";
+		};
+		F94FDA611DA2E8200014B31E /* DifferenceOfSquaresTest */ = {
+			isa = PBXGroup;
+			children = (
+				F94FDA621DA2E8200014B31E /* DifferenceOfSquaresTest.swift */,
+				F94FDA641DA2E8200014B31E /* Info.plist */,
+			);
+			path = DifferenceOfSquaresTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F94FDA511DA2E7FA0014B31E /* difference-of-squares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94FDA591DA2E7FA0014B31E /* Build configuration list for PBXNativeTarget "difference-of-squares" */;
+			buildPhases = (
+				F94FDA4E1DA2E7FA0014B31E /* Sources */,
+				F94FDA4F1DA2E7FA0014B31E /* Frameworks */,
+				F94FDA501DA2E7FA0014B31E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "difference-of-squares";
+			productName = "difference-of-squares";
+			productReference = F94FDA521DA2E7FA0014B31E /* difference-of-squares */;
+			productType = "com.apple.product-type.tool";
+		};
+		F94FDA5F1DA2E8200014B31E /* DifferenceOfSquaresTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94FDA651DA2E8200014B31E /* Build configuration list for PBXNativeTarget "DifferenceOfSquaresTest" */;
+			buildPhases = (
+				F94FDA5C1DA2E8200014B31E /* Sources */,
+				F94FDA5D1DA2E8200014B31E /* Frameworks */,
+				F94FDA5E1DA2E8200014B31E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DifferenceOfSquaresTest;
+			productName = DifferenceOfSquaresTest;
+			productReference = F94FDA601DA2E8200014B31E /* DifferenceOfSquaresTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F94FDA4A1DA2E7FA0014B31E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = nvnehi;
+				TargetAttributes = {
+					F94FDA511DA2E7FA0014B31E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F94FDA5F1DA2E8200014B31E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F94FDA4D1DA2E7FA0014B31E /* Build configuration list for PBXProject "difference-of-squares" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F94FDA491DA2E7FA0014B31E;
+			productRefGroup = F94FDA531DA2E7FA0014B31E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F94FDA511DA2E7FA0014B31E /* difference-of-squares */,
+				F94FDA5F1DA2E8200014B31E /* DifferenceOfSquaresTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F94FDA5E1DA2E8200014B31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F94FDA4E1DA2E7FA0014B31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94FDA561DA2E7FA0014B31E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94FDA5C1DA2E8200014B31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94FDA691DA2E83F0014B31E /* main.swift in Sources */,
+				F94FDA631DA2E8200014B31E /* DifferenceOfSquaresTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F94FDA571DA2E7FA0014B31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F94FDA581DA2E7FA0014B31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F94FDA5A1DA2E7FA0014B31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F94FDA5B1DA2E7FA0014B31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F94FDA661DA2E8200014B31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DifferenceOfSquaresTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nnh.DifferenceOfSquaresTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F94FDA671DA2E8200014B31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DifferenceOfSquaresTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nnh.DifferenceOfSquaresTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F94FDA4D1DA2E7FA0014B31E /* Build configuration list for PBXProject "difference-of-squares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94FDA571DA2E7FA0014B31E /* Debug */,
+				F94FDA581DA2E7FA0014B31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F94FDA591DA2E7FA0014B31E /* Build configuration list for PBXNativeTarget "difference-of-squares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94FDA5A1DA2E7FA0014B31E /* Debug */,
+				F94FDA5B1DA2E7FA0014B31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F94FDA651DA2E8200014B31E /* Build configuration list for PBXNativeTarget "DifferenceOfSquaresTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94FDA661DA2E8200014B31E /* Debug */,
+				F94FDA671DA2E8200014B31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F94FDA4A1DA2E7FA0014B31E /* Project object */;
+}
