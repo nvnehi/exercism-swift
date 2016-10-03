@@ -2,7 +2,7 @@ import Foundation
 
 class Squares {
     // properties
-    var number: Int
+    let number: Int
     var squareOfSums: Int {
         get {
             var result = 0
@@ -10,6 +10,7 @@ class Squares {
                 result += n
             }
             return Int(pow(Double(result), 2.0))
+//            return Int(pow(Double((1...number).reduce(0, +)), 2.0))
         }
     }
     var sumOfSquares: Int  {
@@ -19,6 +20,8 @@ class Squares {
                 result += Int(pow(Double(n), 2.0))
             }
             return result
+            
+//            return (1...number).reduce(0, { $0 + Int(pow(Double($1), 2.0)) })
         }
     }
     var differenceOfSquares: Int  {
