@@ -1,6 +1,6 @@
 import Foundation
 
-class Squares {
+struct Squares {
     // properties
     let number: Int
     var squareOfSums: Int {
@@ -10,7 +10,6 @@ class Squares {
                 result += n
             }
             return Int(pow(Double(result), 2.0))
-//            return Int(pow(Double((1...number).reduce(0, +)), 2.0))
         }
     }
     var sumOfSquares: Int  {
@@ -20,8 +19,6 @@ class Squares {
                 result += Int(pow(Double(n), 2.0))
             }
             return result
-            
-//            return (1...number).reduce(0, { $0 + Int(pow(Double($1), 2.0)) })
         }
     }
     var differenceOfSquares: Int  {
