@@ -54,6 +54,10 @@ struct SpaceAge {
         
         age = earthYears / orbitalPeriod
         
+        return round(age)
+    }
+    
+    func round(_ age: Double) -> Double {
         // fix precision to the hundredths place
         return Double(String(format: "%.2f", age))!
     }
