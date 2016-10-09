@@ -54,7 +54,7 @@ struct SpaceAge {
         
         age = earthYears / orbitalPeriod
         
-        // fix precision to the hundreths place
+        // fix precision to the hundredths place
         return Double(String(format: "%.2f", age))!
 
     }
