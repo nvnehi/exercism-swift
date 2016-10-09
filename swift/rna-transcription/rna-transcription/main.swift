@@ -12,7 +12,7 @@ struct Nucleotide {
         "A": "U"
     ]
     var complementOfDNA: String {
-        return rna.characters.flatMap { complements[ $0.description ] }.joined()
+        return rna.characters.map { complements[ $0.description ]! }.joined()
     }
     
     // initializers
