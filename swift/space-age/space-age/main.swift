@@ -56,7 +56,6 @@ struct SpaceAge {
         
         // fix precision to the hundredths place
         return Double(String(format: "%.2f", age))!
-
     }
 }
 
