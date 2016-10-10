@@ -9,21 +9,13 @@ import Foundation
 struct Bob {
     // methods
     static func hey(_ input: String) -> String {
-        // trim and filter the input
-        let trimmed = input.trimmingCharacters(in: CharacterSet.whitespaces)
-        let filtered = trimmed.components(separatedBy: CharacterSet.decimalDigits).joined()
+        let trimmed = input.trimmingCharacters(in: .whitespaces)
+        guard !trimmed.isEmpty else { return "Fine, be that way." }
         
-        // ensure something has been said
-        guard filtered.characters.count > 0 else { return "Fine, be that way." }
-        
-        // check if the entire string is uppercased and that uppercase letters exists
-        if filtered.rangeOfCharacter(from: CharacterSet.uppercaseLetters) != nil &&
-            filtered.uppercased() == filtered {
+        if trimmed.lowercased() != trimmed && trimmed.uppercased() == trimmed {
             return "Woah, chill out!"
         }
-        
-        // determine remaining possible responses
-        if filtered.characters.last! == "?" { return "Sure." }
+        else if trimmed.characters.last! == "?" { return "Sure." }
         else { return "Whatever." }
     }
 }
