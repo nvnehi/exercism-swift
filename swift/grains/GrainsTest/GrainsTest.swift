@@ -63,7 +63,7 @@ class GrainsTest: XCTestCase {
         XCTAssertEqual(try! Grains.square(64), 9_223_372_036_854_775_808)
     }
 
-//    func testTotalGrains() {
-//        XCTAssertEqual(Grains.total, 18_446_744_073_709_551_615)
-//    }
+    func testTotalGrains() {
+        XCTAssertEqual(Grains.total, 18_446_744_073_709_551_615)
+    }
 }

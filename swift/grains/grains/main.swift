@@ -6,21 +6,16 @@ struct Grains {
         case inputTooHigh(String)
     }
     
-    static var total: CUnsignedLongLong {
-        let result = (1...64).map { $0 }.reduce(0, { return try! square($1) + $0 })
-        
-        return result
-    }
+    static let total: UInt64 = UInt64.max
 
-    static func square(_ squares: Int) throws -> CUnsignedLongLong {
+    static func square(_ squares: Int) throws -> UInt64 {
         guard squares > 0 && squares <= 64 else {
             let message = "Input[\(squares)] invalid. Input should be between 1 and 64 (inclusive)"
 
             if squares <= 0 { throw GrainsError.inputTooLow(message) }
-            throw GrainsError.inputTooHigh(message)
+            else { throw GrainsError.inputTooHigh(message) }
         }
 
-        return CUnsignedLongLong(pow(2.0, Double(squares - 1)))
-//        return CUnsignedLongLong(1) << CUnsignedLongLong(squares - 1)
+        return UInt64(1) << UInt64(squares - 1)
     }
 }
