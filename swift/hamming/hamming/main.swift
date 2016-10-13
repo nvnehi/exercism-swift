@@ -2,7 +2,7 @@ import Foundation
 
 struct Hamming {
     static func compute(_ firstDNA: String, against secondDNA: String) -> Int? {
-        guard firstDNA.hasSameCount(as: secondDNA) else { return nil }
+        guard firstDNA.isSameCount(as: secondDNA) else { return nil }
 
         return firstDNA.compareDifferences(to: secondDNA)
     }
@@ -21,7 +21,7 @@ private extension String {
         return difference
     }
 
-    func hasSameCount(as s: String) -> Bool {
+    func isSameCount(as s: String) -> Bool {
         return self.characters.count == s.characters.count
     }
 }
