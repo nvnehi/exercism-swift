@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9DB7C3A1DB01EB700D36916 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DB7C391DB01EB700D36916 /* main.swift */; };
+		F9DB7C471DB01EFD00D36916 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DB7C461DB01EFD00D36916 /* HammingTest.swift */; };
+		F9DB7C4C1DB01F7000D36916 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DB7C391DB01EB700D36916 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9DB7C341DB01EB700D36916 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F9DB7C361DB01EB700D36916 /* hamming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hamming; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DB7C391DB01EB700D36916 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F9DB7C441DB01EFD00D36916 /* HammingTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HammingTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DB7C461DB01EFD00D36916 /* HammingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
+		F9DB7C481DB01EFD00D36916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9DB7C331DB01EB700D36916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DB7C411DB01EFD00D36916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9DB7C2D1DB01EB700D36916 = {
+			isa = PBXGroup;
+			children = (
+				F9DB7C381DB01EB700D36916 /* hamming */,
+				F9DB7C451DB01EFD00D36916 /* HammingTest */,
+				F9DB7C371DB01EB700D36916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9DB7C371DB01EB700D36916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9DB7C361DB01EB700D36916 /* hamming */,
+				F9DB7C441DB01EFD00D36916 /* HammingTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9DB7C381DB01EB700D36916 /* hamming */ = {
+			isa = PBXGroup;
+			children = (
+				F9DB7C391DB01EB700D36916 /* main.swift */,
+			);
+			path = hamming;
+			sourceTree = "<group>";
+		};
+		F9DB7C451DB01EFD00D36916 /* HammingTest */ = {
+			isa = PBXGroup;
+			children = (
+				F9DB7C461DB01EFD00D36916 /* HammingTest.swift */,
+				F9DB7C481DB01EFD00D36916 /* Info.plist */,
+			);
+			path = HammingTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9DB7C351DB01EB700D36916 /* hamming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DB7C3D1DB01EB700D36916 /* Build configuration list for PBXNativeTarget "hamming" */;
+			buildPhases = (
+				F9DB7C321DB01EB700D36916 /* Sources */,
+				F9DB7C331DB01EB700D36916 /* Frameworks */,
+				F9DB7C341DB01EB700D36916 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hamming;
+			productName = hamming;
+			productReference = F9DB7C361DB01EB700D36916 /* hamming */;
+			productType = "com.apple.product-type.tool";
+		};
+		F9DB7C431DB01EFD00D36916 /* HammingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DB7C491DB01EFD00D36916 /* Build configuration list for PBXNativeTarget "HammingTest" */;
+			buildPhases = (
+				F9DB7C401DB01EFD00D36916 /* Sources */,
+				F9DB7C411DB01EFD00D36916 /* Frameworks */,
+				F9DB7C421DB01EFD00D36916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HammingTest;
+			productName = HammingTest;
+			productReference = F9DB7C441DB01EFD00D36916 /* HammingTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9DB7C2E1DB01EB700D36916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = nvnehi;
+				TargetAttributes = {
+					F9DB7C351DB01EB700D36916 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F9DB7C431DB01EFD00D36916 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9DB7C311DB01EB700D36916 /* Build configuration list for PBXProject "hamming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9DB7C2D1DB01EB700D36916;
+			productRefGroup = F9DB7C371DB01EB700D36916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9DB7C351DB01EB700D36916 /* hamming */,
+				F9DB7C431DB01EFD00D36916 /* HammingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9DB7C421DB01EFD00D36916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9DB7C321DB01EB700D36916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DB7C3A1DB01EB700D36916 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DB7C401DB01EFD00D36916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DB7C4C1DB01F7000D36916 /* main.swift in Sources */,
+				F9DB7C471DB01EFD00D36916 /* HammingTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9DB7C3B1DB01EB700D36916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9DB7C3C1DB01EB700D36916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F9DB7C3E1DB01EB700D36916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9DB7C3F1DB01EB700D36916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F9DB7C4A1DB01EFD00D36916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HammingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nnh.HammingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9DB7C4B1DB01EFD00D36916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HammingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nnh.HammingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9DB7C311DB01EB700D36916 /* Build configuration list for PBXProject "hamming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DB7C3B1DB01EB700D36916 /* Debug */,
+				F9DB7C3C1DB01EB700D36916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9DB7C3D1DB01EB700D36916 /* Build configuration list for PBXNativeTarget "hamming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DB7C3E1DB01EB700D36916 /* Debug */,
+				F9DB7C3F1DB01EB700D36916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9DB7C491DB01EFD00D36916 /* Build configuration list for PBXNativeTarget "HammingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DB7C4A1DB01EFD00D36916 /* Debug */,
+				F9DB7C4B1DB01EFD00D36916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9DB7C2E1DB01EB700D36916 /* Project object */;
+}
