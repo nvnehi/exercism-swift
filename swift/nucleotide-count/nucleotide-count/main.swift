@@ -10,7 +10,8 @@ struct DNA {
     // initialization
     init?(strand: String) {
         self.strand = strand
-
+        guard strand.characters.count > 0 else { return }
+        
         // make sure every character is a symbol
         for ch in strand.characters {
             if !symbols.contains(ch.description) { return nil }
