@@ -2,11 +2,14 @@
 import Foundation
 
 // types
-class GradeSchool {
+struct GradeSchool {
+    // types
+    typealias Roster = [Int: [String]]
+    
     // properties
-    var roster = [Int: [String]]()
-    var sortedRoster: [Int: [String]] {
-        var result = [Int: [String]]()
+    var roster = Roster()
+    var sortedRoster: Roster {
+        var result = Roster()
         
         for (grade, students) in roster {
             result[grade] = students.sorted()
@@ -16,7 +19,7 @@ class GradeSchool {
     }
     
     // methods
-    func addStudent(_ name: String, grade: Int) {
+    mutating func addStudent(_ name: String, grade: Int) {
         if roster[grade] != nil {
             roster[grade]!.append(name)
         } else {
