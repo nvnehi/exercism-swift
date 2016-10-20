@@ -16,3 +16,28 @@ struct ETL {
         return transformed
     }
 }
+
+/*
+    functional implementation
+ */
+
+//struct ETL {
+//    // types
+//    typealias LettersPerScore = [Int: [String]]
+//    typealias ScoresPerLetter = [String: Int]
+//
+//    // methods
+//    static func transform(_ oldScoringSystem: LettersPerScore) -> ScoresPerLetter {
+//        var transformed = ScoresPerLetter()
+//
+//        oldScoringSystem.forEach {
+//            key, values in
+//            values.forEach {
+//                value in
+//                transformed[value.lowercased()] = key
+//            }
+//        }
+//        
+//        return transformed
+//    }
+//}
