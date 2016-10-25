@@ -1,24 +1,26 @@
 import Foundation
 
-class Robot {
-    private var _name: String?
-    var name: String {
-        if _name == nil {
-            _name = "\(randChar())\(randChar())\(randNumber())\(randNumber())\(randNumber())"
-        }
-        
-        return _name!
-    }
-    
-    func resetName() {
-        _name = nil
+struct Robot {
+    var name: String = Robot.randName()
+    private static var usedNames: [String] = []
+
+    mutating func resetName() {
+        if !(name.isEmpty) { Robot.usedNames.append(name) }
+
+        repeat {
+            name = Robot.randName()
+        } while Robot.usedNames.contains(name)
     }
 
-    private func randChar() -> Character {
-        return Character(UnicodeScalar(65 + arc4random_uniform(26))!)
+    private static func randName() -> String {
+        return "\(randString(length: 2))\(randNumber(to: 1000, padding: 3))"
     }
     
-    private func randNumber() -> Int {
-        return Int(arc4random_uniform(10))
+    private static func randString(length: Int) -> String {
+        return String((1...length).map { _ in Character(UnicodeScalar(65 + arc4random_uniform(26))!) })
+    }
+    
+    private static func randNumber(to max: Int, padding: Int = 0) -> String {
+        return String(format: "%.\(padding)d", arc4random_uniform(UInt32(max)))
     }
 }
