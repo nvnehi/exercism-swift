@@ -1,7 +1,7 @@
 import Foundation
 
 struct Robot {
-    var name: String = Robot.randName()
+    var name = Robot.randName()
     private static var usedNames: [String] = []
 
     mutating func resetName() {
